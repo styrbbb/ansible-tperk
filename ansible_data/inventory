@@ -16,4 +16,3 @@ Ansible ansible_host="10.10.10.131" ansible_ssh_user='vagrant' ansible_ssh_pass=
 [OpenSUSE]
 OpenSUSE ansible_host="10.10.10.134" ansible_ssh_user='vagrant' ansible_ssh_pass='vagrant' ansible_become_pass='vagrant'
 Ansible ansible_host="10.10.10.131" ansible_ssh_user='vagrant' ansible_ssh_pass='vagrant' ansible_become_pass='vagrant'
-
