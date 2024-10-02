@@ -41,8 +41,8 @@ config.vm.define "ubuntu-tperk" do |ubuntu|
   ubuntu.vm.hostname = "ubuntu-tperk"
   ubuntu.vm.synced_folder "./ansible_data", "/vagrant_data"
   ubuntu.vm.provider :virtualbox do |vb|
-    vb.customize ["modifyvm", :id, "--memory", "2048"]
-    vb.customize ["modifyvm", :id, "--cpus", "1"]
+    vb.customize ["modifyvm", :id, "--memory", "8192"]
+    vb.customize ["modifyvm", :id, "--cpus", "2"]
 	vb.name = "UBUNTU-TPERK"
     end
   ubuntu.vm.provision "shell", inline: <<-SHELL
